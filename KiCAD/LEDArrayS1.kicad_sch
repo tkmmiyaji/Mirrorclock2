@@ -1,0 +1,1750 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "940bb6bf-a1cc-4f94-af1a-0632ee47b612")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mirrorclock2-rescue:Led_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Led_Small"
+				(at -4.445 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP* SM*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Led_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Led_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 112.395 81.915)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ed1584b-8af0-4e92-9a63-ba899c0b21ee")
+	)
+	(junction
+		(at 112.395 64.135)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4de7090e-933a-42b0-bd2f-05d10c93df22")
+	)
+	(junction
+		(at 112.395 66.675)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dbd6277-19cc-4ea1-9420-c6dd9ebe0c8b")
+	)
+	(junction
+		(at 112.395 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9a7fcca-9615-41d8-bf70-d953f3d194ca")
+	)
+	(wire
+		(pts
+			(xy 97.155 64.135) (xy 112.395 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11fed10e-0671-4a00-9099-c94a81c6d9d6")
+	)
+	(wire
+		(pts
+			(xy 112.395 78.74) (xy 116.205 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12524f2e-03ca-4368-8785-08933c1156ad")
+	)
+	(wire
+		(pts
+			(xy 90.805 67.945) (xy 88.9 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23381c7e-158b-48a6-a6f4-935d6f815bf1")
+	)
+	(wire
+		(pts
+			(xy 96.52 78.74) (xy 112.395 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ee750d-d648-4706-b5ce-989436f46298")
+	)
+	(wire
+		(pts
+			(xy 116.205 67.945) (xy 133.985 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "352ee04b-47c0-403e-aced-285e8d0dce8f")
+	)
+	(wire
+		(pts
+			(xy 101.6 66.675) (xy 86.36 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3570454c-e73a-465c-af92-301e5260e0e9")
+	)
+	(wire
+		(pts
+			(xy 112.395 64.135) (xy 116.205 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b412455-f379-416b-a404-d36ce074725c")
+	)
+	(wire
+		(pts
+			(xy 116.205 59.055) (xy 116.205 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52eed26b-0fe6-4135-898f-bee561b5618b")
+	)
+	(wire
+		(pts
+			(xy 90.805 67.945) (xy 96.52 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55fa6d3c-72e7-454f-b731-03f8f4d7ef91")
+	)
+	(wire
+		(pts
+			(xy 112.395 66.675) (xy 112.395 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56350daa-0f55-4f6a-80ea-0af94a2173d5")
+	)
+	(wire
+		(pts
+			(xy 86.36 66.675) (xy 86.36 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5adfe30d-f775-4baf-80fe-862e7dd538cc")
+	)
+	(wire
+		(pts
+			(xy 112.395 81.915) (xy 112.395 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d9f0ec0-dad7-42e6-87f8-85f61cee1366")
+	)
+	(wire
+		(pts
+			(xy 88.9 70.485) (xy 83.82 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e356b8a-678a-4aec-9cda-4afcb98b88b1")
+	)
+	(wire
+		(pts
+			(xy 112.395 64.135) (xy 112.395 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dcab901-94ee-4f77-901c-39a808698d79")
+	)
+	(wire
+		(pts
+			(xy 101.6 43.18) (xy 101.6 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4abd09-d8d1-4b2c-95a0-1f50f5a4d3dc")
+	)
+	(wire
+		(pts
+			(xy 116.205 43.815) (xy 116.205 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8466de88-0790-468a-8a2a-83892b39c56c")
+	)
+	(wire
+		(pts
+			(xy 110.49 88.9) (xy 112.395 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e012a0-0d09-41a8-90c2-5a3c56161d34")
+	)
+	(wire
+		(pts
+			(xy 112.395 88.9) (xy 112.395 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b952d5e-2482-48c8-a7eb-bfbdd3689b01")
+	)
+	(wire
+		(pts
+			(xy 116.205 73.66) (xy 116.205 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d120d11-1204-4a9f-a5e6-518cbed12a02")
+	)
+	(wire
+		(pts
+			(xy 86.36 64.135) (xy 83.82 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa37736c-cc77-439f-98d8-71aeb82d9557")
+	)
+	(wire
+		(pts
+			(xy 107.315 66.675) (xy 106.68 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f0ca83-00d6-4847-a45c-a2156e4c53f1")
+	)
+	(wire
+		(pts
+			(xy 97.155 59.055) (xy 97.155 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c369fe-c308-450b-ba72-890ba8d459b8")
+	)
+	(wire
+		(pts
+			(xy 107.315 81.915) (xy 106.68 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9600ff3-8f92-4a69-aa76-1cd5f9fcadaf")
+	)
+	(wire
+		(pts
+			(xy 96.52 73.66) (xy 96.52 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf18166c-02be-4d5f-83e8-3ade587e8d4f")
+	)
+	(wire
+		(pts
+			(xy 112.395 66.675) (xy 112.395 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2638479-c64b-4c88-b899-2f887855493c")
+	)
+	(wire
+		(pts
+			(xy 107.315 52.705) (xy 106.68 52.705)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e48b7e-b3a3-4538-af7e-e89c0514d3d6")
+	)
+	(wire
+		(pts
+			(xy 84.455 81.915) (xy 101.6 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b22bae-5880-47e5-bc75-7e724488973a")
+	)
+	(wire
+		(pts
+			(xy 83.185 53.34) (xy 97.155 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb733649-3b82-4811-998f-5d33886209bf")
+	)
+	(label "f"
+		(at 84.455 59.69 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d6d2ae5-46dc-4b53-b9ef-319a7b037bf9")
+	)
+	(label "d1"
+		(at 104.14 77.47 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "2703ecd2-483c-4490-b360-3a9ed18bbb8c")
+	)
+	(label "b"
+		(at 120.65 60.325 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bb304a1-d525-4259-ae31-e2f7b5bffc7f")
+	)
+	(label "e"
+		(at 85.725 74.93 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "2dc7521d-ba18-42fb-b31c-09e2600c5d4a")
+	)
+	(label "c"
+		(at 121.285 74.295 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "75bd57f4-9622-4ad4-b61a-270b9751f2bc")
+	)
+	(label "g"
+		(at 105.41 71.12 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "89d024a9-748d-4760-81fa-28ab70df98b7")
+	)
+	(label "a"
+		(at 106.045 48.26 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "f95cc8ce-37d6-4d7a-b965-ae7b585f9c4e")
+	)
+	(hierarchical_label "E"
+		(shape input)
+		(at 83.82 70.485 180)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify right)
+		)
+		(uuid "27734f3b-2e5e-4cdb-bd9f-20fcc7bedd26")
+	)
+	(hierarchical_label "CC"
+		(shape input)
+		(at 110.49 88.9 180)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify right)
+		)
+		(uuid "3737d3b8-e99a-4be2-8de9-1abd2b8748d1")
+	)
+	(hierarchical_label "G"
+		(shape input)
+		(at 83.82 64.135 180)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify right)
+		)
+		(uuid "49960f05-ad24-4fd6-a1d4-ceb2840e0109")
+	)
+	(hierarchical_label "B"
+		(shape input)
+		(at 116.205 43.815 90)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left)
+		)
+		(uuid "8cd95bd6-ffae-4d9f-a77e-6e8e4a86317b")
+	)
+	(hierarchical_label "D"
+		(shape input)
+		(at 84.455 81.915 180)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify right)
+		)
+		(uuid "8faf686c-731c-4be5-af1d-37e642609cf8")
+	)
+	(hierarchical_label "A"
+		(shape input)
+		(at 101.6 43.18 90)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left)
+		)
+		(uuid "973c27d5-5d17-4fd4-981e-bdcf4b0c23f6")
+	)
+	(hierarchical_label "F"
+		(shape input)
+		(at 83.185 53.34 180)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify right)
+		)
+		(uuid "b06013e0-51f0-4025-b9b0-2e9440f8c378")
+	)
+	(hierarchical_label "C"
+		(shape input)
+		(at 133.985 67.945 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left)
+		)
+		(uuid "d530f2fe-5c32-47ec-8382-791598060af2")
+	)
+	(symbol
+		(lib_id "Mirrorclock2-rescue:Led_Small")
+		(at 109.855 52.705 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005c7203ff")
+		(property "Reference" "D8"
+			(at 111.125 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 111.8616 55.245 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TM_Foot:LED_MULTI"
+			(at 109.855 52.705 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.855 52.705 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.855 52.705 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff1e0690-4622-4baa-9a65-126f85d476ef")
+		)
+		(pin "2"
+			(uuid "34ec56d3-9a63-404f-8022-1c224ba7f9b5")
+		)
+		(instances
+			(project "Mirrorclock2"
+				(path "/e0120d40-cdba-46ca-a8ab-06e8abe83b44/00000000-0000-0000-0000-00005c71b6c1"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mirrorclock2-rescue:Led_Small")
+		(at 104.14 52.705 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005c720406")
+		(property "Reference" "D7"
+			(at 105.41 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 106.1466 55.245 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TM_Foot:LED_MULTI"
+			(at 104.14 52.705 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 52.705 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 52.705 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02666827-5842-46a5-bb61-787cbce01c9b")
+		)
+		(pin "2"
+			(uuid "92326c13-090f-4395-b893-e1357ac1420d")
+		)
+		(instances
+			(project "Mirrorclock2"
+				(path "/e0120d40-cdba-46ca-a8ab-06e8abe83b44/00000000-0000-0000-0000-00005c71b6c1"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mirrorclock2-rescue:Led_Small")
+		(at 109.855 81.915 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005c72040e")
+		(property "Reference" "D20"
+			(at 111.125 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 111.8616 84.455 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TM_Foot:LED_MULTI"
+			(at 109.855 81.915 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.855 81.915 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.855 81.915 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ce7a71d-211e-49c2-aeec-3c1ae32ee783")
+		)
+		(pin "2"
+			(uuid "19bac6d8-b59c-4c5e-bac3-5fbabb506404")
+		)
+		(instances
+			(project "Mirrorclock2"
+				(path "/e0120d40-cdba-46ca-a8ab-06e8abe83b44/00000000-0000-0000-0000-00005c71b6c1"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mirrorclock2-rescue:Led_Small")
+		(at 104.14 66.675 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005c720451")
+		(property "Reference" "D13"
+			(at 105.41 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 106.1466 69.215 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TM_Foot:LED_MULTI"
+			(at 104.14 66.675 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 66.675 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 66.675 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c53fa7f8-8168-4f2f-948d-19bf0c8fa2a5")
+		)
+		(pin "2"
+			(uuid "0083b88a-9386-4943-875c-ed8c5ebfd9c4")
+		)
+		(instances
+			(project "Mirrorclock2"
+				(path "/e0120d40-cdba-46ca-a8ab-06e8abe83b44/00000000-0000-0000-0000-00005c71b6c1"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mirrorclock2-rescue:Led_Small")
+		(at 116.205 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005c720468")
+		(property "Reference" "D18"
+			(at 113.03 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 118.745 78.2066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TM_Foot:LED_MULTI"
+			(at 116.205 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.205 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.205 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d3c31a1-8d35-4d1c-bed1-266a2e3b0f49")
+		)
+		(pin "2"
+			(uuid "02fe769d-7082-4815-beab-b49351a763a7")
+		)
+		(instances
+			(project "Mirrorclock2"
+				(path "/e0120d40-cdba-46ca-a8ab-06e8abe83b44/00000000-0000-0000-0000-00005c71b6c1"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mirrorclock2-rescue:Led_Small")
+		(at 96.52 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005c7204a4")
+		(property "Reference" "D17"
+			(at 93.345 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 99.06 78.2066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TM_Foot:LED_MULTI"
+			(at 96.52 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed4af7b9-0919-4241-90b2-829a96ac607a")
+		)
+		(pin "2"
+			(uuid "a3ae0ca5-9498-4e7d-b02a-8e746c18bb76")
+		)
+		(instances
+			(project "Mirrorclock2"
+				(path "/e0120d40-cdba-46ca-a8ab-06e8abe83b44/00000000-0000-0000-0000-00005c71b6c1"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mirrorclock2-rescue:Led_Small")
+		(at 97.155 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005c7204c9")
+		(property "Reference" "D9"
+			(at 93.98 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 99.695 57.8866 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TM_Foot:LED_MULTI"
+			(at 97.155 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.155 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 97.155 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ecff0923-f25b-4cb4-a8d7-8f8607e2ac5d")
+		)
+		(pin "2"
+			(uuid "2e2c2f69-5730-4b3f-aa63-118ce962c11a")
+		)
+		(instances
+			(project "Mirrorclock2"
+				(path "/e0120d40-cdba-46ca-a8ab-06e8abe83b44/00000000-0000-0000-0000-00005c71b6c1"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mirrorclock2-rescue:Led_Small")
+		(at 104.14 81.915 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000627d2a1c")
+		(property "Reference" "D19"
+			(at 105.41 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 106.1466 84.455 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TM_Foot:LED_MULTI"
+			(at 104.14 81.915 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 81.915 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 81.915 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "90b7668d-048c-4ab2-bf24-35320cfc25e2")
+		)
+		(pin "2"
+			(uuid "e31b6e0a-20c8-49bd-9d44-65d248826e8a")
+		)
+		(instances
+			(project "Mirrorclock2"
+				(path "/e0120d40-cdba-46ca-a8ab-06e8abe83b44/00000000-0000-0000-0000-00005c71b6c1"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mirrorclock2-rescue:Led_Small")
+		(at 109.855 66.675 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000627d2a1d")
+		(property "Reference" "D14"
+			(at 111.125 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 111.8616 69.215 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TM_Foot:LED_MULTI"
+			(at 109.855 66.675 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.855 66.675 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.855 66.675 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6874f1ae-ff25-4881-a908-040434ae0da0")
+		)
+		(pin "2"
+			(uuid "83555a0c-b5a5-48e4-b517-e241b0844ae5")
+		)
+		(instances
+			(project "Mirrorclock2"
+				(path "/e0120d40-cdba-46ca-a8ab-06e8abe83b44/00000000-0000-0000-0000-00005c71b6c1"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mirrorclock2-rescue:Led_Small")
+		(at 116.205 70.485 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000627d2a20")
+		(property "Reference" "D16"
+			(at 113.03 71.755 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 118.745 72.4916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TM_Foot:LED_MULTI"
+			(at 116.205 70.485 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.205 70.485 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.205 70.485 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6f3207db-bcfc-4fd5-a43f-9834dd749ad8")
+		)
+		(pin "2"
+			(uuid "8e5b54fc-5c49-4d3f-a5b4-488ce67c45cb")
+		)
+		(instances
+			(project "Mirrorclock2"
+				(path "/e0120d40-cdba-46ca-a8ab-06e8abe83b44/00000000-0000-0000-0000-00005c71b6c1"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mirrorclock2-rescue:Led_Small")
+		(at 116.205 61.595 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000627d2a21")
+		(property "Reference" "D12"
+			(at 113.03 62.865 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 118.745 63.6016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TM_Foot:LED_MULTI"
+			(at 116.205 61.595 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.205 61.595 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.205 61.595 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c965397-d666-4d79-af36-3d8febe7195c")
+		)
+		(pin "2"
+			(uuid "ff86b539-f01b-4833-a976-970c083632bf")
+		)
+		(instances
+			(project "Mirrorclock2"
+				(path "/e0120d40-cdba-46ca-a8ab-06e8abe83b44/00000000-0000-0000-0000-00005c71b6c1"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mirrorclock2-rescue:Led_Small")
+		(at 116.205 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000627d2a22")
+		(property "Reference" "D10"
+			(at 113.03 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 118.745 57.8866 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TM_Foot:LED_MULTI"
+			(at 116.205 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.205 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.205 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3125df6e-2f13-4345-8a46-a9c353bcb62c")
+		)
+		(pin "2"
+			(uuid "b4f3bd9d-e486-46da-8c25-12adaea01eeb")
+		)
+		(instances
+			(project "Mirrorclock2"
+				(path "/e0120d40-cdba-46ca-a8ab-06e8abe83b44/00000000-0000-0000-0000-00005c71b6c1"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mirrorclock2-rescue:Led_Small")
+		(at 96.52 70.485 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000627d2a24")
+		(property "Reference" "D15"
+			(at 93.345 71.755 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 99.06 72.4916 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TM_Foot:LED_MULTI"
+			(at 96.52 70.485 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 70.485 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 70.485 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "100085c5-fa8d-4093-ad1b-aff759299106")
+		)
+		(pin "2"
+			(uuid "1202d5e9-96f5-49ac-8d5a-f25e681c94de")
+		)
+		(instances
+			(project "Mirrorclock2"
+				(path "/e0120d40-cdba-46ca-a8ab-06e8abe83b44/00000000-0000-0000-0000-00005c71b6c1"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mirrorclock2-rescue:Led_Small")
+		(at 97.155 61.595 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000627d2a25")
+		(property "Reference" "D11"
+			(at 93.98 62.865 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 99.695 63.6016 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TM_Foot:LED_MULTI"
+			(at 97.155 61.595 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.155 61.595 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 97.155 61.595 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19d791ee-4826-4cee-bd5f-cbb5a92435ec")
+		)
+		(pin "2"
+			(uuid "1276540b-a3ae-471d-a80b-e97e6c8a58ce")
+		)
+		(instances
+			(project "Mirrorclock2"
+				(path "/e0120d40-cdba-46ca-a8ab-06e8abe83b44/00000000-0000-0000-0000-00005c71b6c1"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
